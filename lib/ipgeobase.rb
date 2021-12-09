@@ -1,11 +1,12 @@
 # frozen_string_literal: true
 
-require 'addressable/uri'
-require 'net/http'
+require "addressable/uri"
+require "net/http"
 
-require_relative 'ipgeobase/version'
-require_relative 'ipgeobase/xmlparser'
+require_relative "ipgeobase/version"
+require_relative "ipgeobase/xmlparser"
 
+# Main module
 module Ipgeobase
   class Error < StandardError; end
 
@@ -15,4 +16,3 @@ module Ipgeobase
     XMLParser.parse(response)
   end
 end
-

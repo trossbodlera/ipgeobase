@@ -1,10 +1,12 @@
-require 'happymapper'
+# frozen_string_literal: true
+
+require "happymapper"
 
 module Ipgeobase
   class XMLParser
     include HappyMapper
 
-    tag 'query'
+    tag "query"
     element :city, String
     element :country, String
     element :countryCode, String
