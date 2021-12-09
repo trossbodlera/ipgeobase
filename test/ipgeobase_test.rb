@@ -16,7 +16,7 @@ class IpgeobaseTest < Minitest::Test
     assert(ip_meta.city == "Irkutsk")
     assert(ip_meta.country == "Russia")
     assert(ip_meta.countryCode == "RU")
-    assert(ip_meta.lat * 10000 == 522978)
-    assert(ip_meta.lon * 10000 == 1042964)
+    assert(ip_meta.lat * 10_000 == 522_978)
+    assert(ip_meta.lon * 10_000 == 1_042_964)
   end
 end
