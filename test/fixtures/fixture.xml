@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+  <status>success</status>
+  <country>Russia</country>
+  <countryCode>RU</countryCode>
+  <region>IRK</region>
+  <regionName>Irkutsk Oblast</regionName>
+  <city>Irkutsk</city>
+  <zip>664025</zip>
+  <lat>52.2978</lat>
+  <lon>104.2964</lon>
+  <timezone>Asia/Irkutsk</timezone>
+  <isp>JSC "ER-Telecom Holding"</isp>
+  <org>JSC "ER-Telecom Holding" Irkutsk Branch</org>
+  <as>AS51645 JSC ER-Telecom Holding</as>
+  <query>185.37.58.35</query>
+</query>
